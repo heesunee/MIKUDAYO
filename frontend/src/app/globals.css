@@ -2,8 +2,15 @@
 
 :root {
   /* Colors - Gray */
+  --gray-900: #222222;
+  --gray-800: #434855;
+  --gray-700: #5f646f;
   --gray-600: #9397a1;
+  --gray-500: #abb0b9;
+  --gray-400: #c5c8ce;
   --gray-300: #dadde3;
+  --gray-200: #e2d5eb;
+  --gray-100: #f2f4f8;
   --gray-50: #fafafb;
   --gray-20: #ffffff;
 
@@ -49,8 +56,8 @@ body {
   max-width: 360px;
   min-height: 100vh;
   margin: 0 auto;
-  padding-left: 1.6rem;
-  padding-right: 1.6rem;
+  padding-left: 16px;
+  padding-right: 16px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -109,4 +116,94 @@ body {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: -0.03em;
+}
+
+/* Spacing utilities */
+.p-12 {
+  padding: 12px;
+}
+.px-18 {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.py-4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.px-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.py-2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.px-6 {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.pt-14 {
+  padding-top: 14px;
+}
+.pt-38 {
+  padding-top: 38px;
+}
+.pt-24 {
+  padding-top: 24px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+.mt-8 {
+  margin-top: 8px;
+}
+.mt-12 {
+  margin-top: 12px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.ml-21 {
+  margin-left: 21px;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+.gap-6 {
+  gap: 6px;
+}
+.gap-8 {
+  gap: 8px;
+}
+.gap-10 {
+  gap: 10px;
+}
+
+.h-35 {
+  height: 35px;
+}
+.h-54 {
+  height: 54px;
+}
+.h-62 {
+  height: 62px;
+}
+
+.w-112 {
+  width: 112px;
+}
+.h-24 {
+  height: 24px;
+}
+.-top-10 {
+  top: -10px;
+}
+
+.max-w-360 {
+  max-width: 360px;
 }
